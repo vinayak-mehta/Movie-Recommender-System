@@ -1,4 +1,4 @@
-## Movie Recommender System based on the MovieLens dataset
+## Movie Recommender System based on the MovieLens 100K dataset
 
 A simple movie recommender system. Yet to implement a user interface.
 
