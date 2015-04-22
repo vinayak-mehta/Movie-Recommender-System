@@ -8,7 +8,7 @@ import re
 
 import numpy as np
 
-from sklearn.cluster import MiniBatchKMeans
+from sklearn.cluster import KMeans
 from sklearn.metrics import mean_squared_error
 
 # Store data in arrays
@@ -47,7 +47,7 @@ for movie in item:
                         movie.musical, movie.mystery, movie.romance, movie.sci_fi, movie.thriller, movie.war, movie.western])
 
 movie_genre = np.array(movie_genre)
-cluster = MiniBatchKMeans(n_clusters=19)
+cluster = KMeans(n_clusters=19)
 cluster.fit_predict(movie_genre)
 
 utility_clustered = []
