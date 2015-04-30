@@ -1,7 +1,6 @@
 """
 Scripts to help load the movielens dataset into Python classes
 """
-#!/bin/python
 import re
 
 # Read data/README to get more info on these data structures

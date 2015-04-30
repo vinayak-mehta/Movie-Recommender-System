@@ -1,10 +1,13 @@
-#!/bin/python
+"""
+Clustering and stuff
+"""
 from movielens import *
 
 import sys
 import time
 import math
 import re
+import pickle
 
 import numpy as np
 
@@ -146,6 +149,8 @@ for i in range(0, n_users):
 print "\rGuessing [User:Rating] = [%d:%d]" % (i, j)
 
 print utility_copy
+
+pickle.dump( utility_copy, open("utility_matrix.pkl", "wb"))
 
 # Predict ratings for u.test and find the mean squared error
 y_true = []

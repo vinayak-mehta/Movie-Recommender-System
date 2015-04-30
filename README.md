@@ -1,6 +1,6 @@
 ## Movie Recommender System based on the MovieLens 100K dataset
 
-A simple movie recommender system. Yet to implement a user interface.
+A simple movie recommender system. Made a simple UI that just recommends a genre, for now.
 
 Used:
 
@@ -8,4 +8,4 @@ Used:
 
 * [Pearson Correlation Similarity Measure](http://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient): to measure similarity between two users. 
 
-Currently getting a Mean Squared Error of 1.25 on the test set.
+Currently getting a Mean Squared Error of 1.23 on the test set.
